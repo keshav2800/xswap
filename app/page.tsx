@@ -17,7 +17,7 @@ interface ChestType {
 
 export default function RewardsPage() {
   // @ts-ignore
-  const [credits, setCredits] = useState(0)
+  const [credits] = useState(0)
   const [isWalletConnected, setIsWalletConnected] = useState(false)
   const [chests, setChests] = useState<ChestType[]>([
     {
